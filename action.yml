@@ -118,7 +118,6 @@ runs:
     INPUT_ENABLE_JOBS_SUMMARY: ${{ inputs.enable_jobs_summary }}
     INPUT_COMMENTS_WITH_QUERIES: ${{ inputs.comments_with_queries }}
     INPUT_EXCLUDED_COLUMNS_FOR_COMMENTS_WITH_QUERIES: ${{ inputs.excluded_column_for_comments_with_queries }}
-    INPUT_OUTPUT_FORMATS: ${{ inputs.output_formats }}
     WORKSPACE_PATH: $GITHUB_WORKSPACE
   args:
     - ${{ inputs.path }}
